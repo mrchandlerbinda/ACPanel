@@ -1,0 +1,42 @@
+[en]
+MSR_SQL_CANT_CON = Database connection failed [#%d]: %s
+MSR_CANT_LOAD_SERVERS = SQL error: can't load servers - '%s'
+MSR_DOWN = Down
+MSR_CURRENT = Current server
+MSR_REFRESH = Refresh
+MSR_MORE = More
+MSR_BACK = Back
+MSR_EXIT = Exit
+MSR_CHANGED = Sorry, you can't join this server
+MRS_SUB_HEADER = Choosed server is full.^nYou can wait for free slot:^n
+MSR_IN_RETRY = You already wait
+MSR_NO_RETRY = You dont wait a slot
+MSR_OFF_RETRY = Disable waiting
+MSR_ON_RETRY = Enable waiting
+MSR_NO_FREE_SLOTS = Sorry, all servers is full. Try againt later...
+MSR_NO_SERVERINFO = The server is not in the database
+MSR_THREADED_ERROR = Threaded query error #%d: %s
+MSR_QUERY_STRING = Query string: %s
+MSR_CONNECTION_FAILED = Fail state: Connection Failed
+MSR_QUERY_FAILED = Fail state: Query Failed
+
+[ru]
+MSR_SQL_CANT_CON = Не удалось подключиться к базе данных [#%d]: %s
+MSR_DOWN = Выключен
+MSR_CURRENT = Текущий сервер
+MSR_REFRESH = Обновить
+MSR_MORE = Дальше
+MSR_BACK = Назад
+MSR_EXIT = Выход
+MSR_CHANGED = Извините, но ситуация на выбранном сервере изменилась и вы больше не можете туда попасть
+MRS_SUB_HEADER = Выбранный сервер заполнен.^nВы можете стать в очередь:^n
+MSR_IN_RETRY = Вы уже состоите в очереди
+MSR_NO_RETRY = Вы не состоите в очереди
+MSR_OFF_RETRY = Покинуть очередь
+MSR_ON_RETRY = Стать в очередь
+MSR_NO_FREE_SLOTS = Извините, но все места на всех серверах заполнены. Попробуйте позже...
+MSR_NO_SERVERINFO = Сервер отсутствует в базе
+MSR_THREADED_ERROR = Ошибка запроса #%d: %s
+MSR_QUERY_STRING = Строка запроса: %s
+MSR_CONNECTION_FAILED = Причина: ошибка при подключении
+MSR_QUERY_FAILED = Причина: ошибка в запросе

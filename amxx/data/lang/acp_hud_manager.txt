@@ -1,0 +1,11 @@
+[ru]
+MANAGER_DISABLED = Hud Manager отключен.
+MORE = Дальше
+BACK = Назад
+EXIT = Выход
+
+[en]
+MANAGER_DISABLED = Hud Manager is disabled.
+MORE = More
+BACK = Back
+EXIT = Exit

@@ -1,0 +1,41 @@
+[en]
+ADMIN_SQL_CANT_CON = SQL error: can't connect - '%s'.
+ADMIN_SQL_CANT_LOAD_PLAYERS = SQL error: can't load players - '%s'.
+ADMIN_SQL_CANT_LOAD_PATTERNS = SQL error: can't load pattern - '%s'.
+ADMIN_SQL_CANT_LOAD_SERVERS = SQL error: can't load servers - '%s'.
+ADMIN_SQL_LOADED_PLAYER = Loaded 1 player from database.
+ADMIN_SQL_LOADED_PLAYERS = Loaded %d players from database.
+ADMIN_SQL_LOADED_PATTERN = Loaded 1 pattern from database.
+ADMIN_SQL_LOADED_PATTERNS = Loaded %d patterns from database.
+ADMIN_NO_SERVERINFO = The server is not in the database.
+ADMIN_NO_PLAYERS = No players found.
+ADMIN_NAME_NOT_FOUND = Patterns not found.
+ADMIN_INV_PAS = Invalid Password!
+ADMIN_PAS_ACC = Password accepted!
+ADMIN_PRIV_SET = Privileges set!
+ADMIN_NICK_ENTRY = The NICK is PROTECTED by the password. Change NICK or REGISTERED!
+ADMIN_NICK_INACTIVE = ACCESS DENIED!
+ADMIN_NAME_MESSAGE = The entered nickname is forbidden on the server!
+ADMIN_NAME_CHANGE = Change nickname not allowed on the server!
+ADMIN_AUTH_DISABLED = Players authorization is disabled!
+
+[ru]
+ADMIN_SQL_CANT_CON = SQL ошибка: не удалось подключиться - '%s'.
+ADMIN_SQL_CANT_LOAD_PLAYERS = SQL ошибка: не удалось загрузить игроков - '%s'.
+ADMIN_SQL_CANT_LOAD_PATTERNS = SQL ошибка: не удалось загрузить шаблоны - '%s'.
+ADMIN_SQL_CANT_LOAD_SERVERS = SQL ошибка: не удалось загрузить сервер - '%s'.
+ADMIN_SQL_LOADED_PLAYER = Загружен 1 игрок из базы данных.
+ADMIN_SQL_LOADED_PLAYERS = Загружено %d игроков из базы данных.
+ADMIN_SQL_LOADED_PATTERN = Загружен 1 шаблон из базы данных.
+ADMIN_SQL_LOADED_PATTERNS = Загружено %d шаблонов из базы данных.
+ADMIN_NO_SERVERINFO = Сервер отсутствует в базе.
+ADMIN_NO_PLAYERS = Игроки не найдены.
+ADMIN_NAME_NOT_FOUND = Шаблоны не найдены.
+ADMIN_INV_PAS = Неверный пароль!
+ADMIN_PAS_ACC = Пароль подтвержден!
+ADMIN_PRIV_SET = Привилегии установлены!
+ADMIN_NICK_ENTRY = НИК ЗАЩИЩЕН паролем. Смените НИК или ЗАРЕГИСТРИРУЙТЕСЬ!
+ADMIN_NICK_INACTIVE = ДОСТУП ЗАПРЕЩЕН!
+ADMIN_NAME_MESSAGE = Ваш ник запрещен на нашем сервере!
+ADMIN_NAME_CHANGE = Смена ника запрещена на данном сервере!
+ADMIN_AUTH_DISABLED = Авторизация игроков отключена!

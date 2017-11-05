@@ -1,0 +1,47 @@
+[en]
+VBK_BAN_DISABLED = command !g/voteban !ndisabled by the administrator.
+VBK_KICK_DISABLED = command !g/votekick !ndisabled by the administrator.
+VBK_NOT_NOW = Function is turned off, as the admin on the server.
+VBK_TIMEOUT = Voting is possible in !g%d !nseconds.
+VBK_DELAY = You have already run the vote. The next vote will be available in !g%d !nseconds.
+VBK_ALREADY_RUN = Voting has already started, wait for completion.
+VBK_MINPLAYERS_ERROR = To be able to vote must be at least !g%d !nplayers on the server.
+VBK_YES = Yes
+VBK_NO = No
+VBK_MENU_TITLE_BAN = Initiator: \w%s^n\yReason: \w%s^n\yBan \r%s \y(\w%d \yfrags | \w%d \ydeads)?
+VBK_MENU_TITLE_KICK = Initiator: \w%s^n\yReason: \w%s^n\yKick \r%s \y(\w%d \yfrags | \w%d \ydeads)?
+VBK_SUCCESS_KICK = Vote for kick !g%s !nsucceeded. A player removed from the server!
+VBK_SUCCESS_BAN = Vote for ban !g%s !nsucceeded. A player banned!
+VBK_FAILED_KICK = Vote for kick !g%s !nfailed: YES - !g%d !n, need - !g%d !nvotes!
+VBK_FAILED_BAN = Vote for ban !g%s !nfailed: YES - !g%d !n, need - !g%d !nvotes!
+VBK_MENU_PLAYERS_BAN = Select a player for ban:
+VBK_MENU_PLAYERS_KICK = Select a player for kick:
+VBK_MENU_REASONS_BAN = Select a reason for ban:
+VBK_MENU_REASONS_KICK = Select a reason for kick:
+VBK_VOTED_YES = !t%s !nvoted for
+VBK_VOTED_NO = !t%s !nvoted against
+VBK_NOT_ACCESS = You do not have access to this command!
+
+[ru]
+VBK_BAN_DISABLED = команда !g/voteban !nотключена администратором.
+VBK_KICK_DISABLED = команда !g/votekick !nотключена администратором.
+VBK_NOT_NOW = Функция выключена, так как админ на сервере.
+VBK_TIMEOUT = Голосование возможно через !g%d !nсекунд.
+VBK_DELAY = Вы уже запускали голосование. Следующее будет доступно через !g%d !nсекунд.
+VBK_ALREADY_RUN = Голосование уже запущено, дождитесь завершения.
+VBK_MINPLAYERS_ERROR = Для возможности голосования необходимо минимум !g%d !nигроков на сервере. 
+VBK_YES = Да
+VBK_NO = Нет
+VBK_MENU_TITLE_BAN = Инициатор: \w%s^n\yПричина: \w%s^n\yЗабанить \r%s \y(\w%d \yфрагов | \w%d \yсмертей)?
+VBK_MENU_TITLE_KICK = Инициатор: \w%s^n\yПричина: \w%s^n\yКикнуть \r%s \y(\w%d \yфрагов | \w%d \yсмертей)?
+VBK_SUCCESS_KICK = Голосование за кик !g%s !nуспешно завершено. Игрок удален с сервера!
+VBK_SUCCESS_BAN = Голосование за бан !g%s !nуспешно завершено. Игрок забанен!
+VBK_FAILED_KICK = Голосование за кик !g%s !nпровалено: ЗА - !g%d !n, нужно - !g%d !nголосов!
+VBK_FAILED_BAN = Голосование за бан !g%s !nпровалено: ЗА - !g%d !n, нужно - !g%d !nголосов!
+VBK_MENU_PLAYERS_BAN = Выбери игрока для бана:
+VBK_MENU_PLAYERS_KICK = Выбери игрока для кика:
+VBK_MENU_REASONS_BAN = Выбери причину для бана:
+VBK_MENU_REASONS_KICK = Выбери причину для кика:
+VBK_VOTED_YES = !t%s !nпроголосовал за
+VBK_VOTED_NO = !t%s !nпроголосовал против
+VBK_NOT_ACCESS = Вы не имеете доступа к этой команде!

@@ -1,0 +1,39 @@
+[en]
+CC_SQL_ERROR = Could not connect to SQL database.
+CC_CANT_LOAD = SQL error: can't load - '%s'
+CC_NO_PATTERNS = No Patterns Found.
+CC_NO_NSWORDS = No NoSaveWords Found.
+CC_LOADED_PATTERN = Loaded 1 pattern from database
+CC_LOADED_PATTERNS = Loaded %d patterns from database
+CC_LOADED_NSWORD = Loaded 1 word from database
+CC_LOADED_NSWORDS = Loaded %d words from database
+CC_BAN_MSG = Ban player %s for %s
+CC_KICK_MSG = Kick player %s for %s
+CC_WARN_MSG = Player %s received a warning for bad words
+CC_KICK_REASON = Your message is bad
+CC_BAN_REASON = Bad Chat Message
+CC_WARN_HUD = BAD CHAT MESSAGE WARNING: %i/%i
+CC_STOP_FLOOD = Stop flooding the server!
+CC_TRANSLIT_NOT = Not enough rights for the command!
+CC_TRANSLIT_ON = Transliteration for a chat ON!
+CC_TRANSLIT_OFF = Transliteration for a chat OFF!
+
+[ru]
+CC_SQL_ERROR = Отсутствует соединение с базой данных.
+CC_CANT_LOAD = SQL ошибка: не удается загрузить - '%s'
+CC_NO_PATTERNS = Шаблоны словарей не найдены.
+CC_NO_NSWORDS = Клиентские команды не найдены.
+CC_LOADED_PATTERN = Загружен 1 шаблон из базы данных
+CC_LOADED_PATTERNS = Загружено %d шаблонов из базы данных
+CC_LOADED_NSWORD = Загружена 1 клиентская команда из базы данных
+CC_LOADED_NSWORDS = Загружено %d клиентских команд из базы данных
+CC_BAN_MSG = Игрок %s забанен за %s
+CC_KICK_MSG = Игрок %s кикнут за %s
+CC_WARN_MSG = Игрок %s получил предупреждение за запрещенные слова в чат
+CC_KICK_REASON = Использование запрещенных фраз в чате
+CC_BAN_REASON = Использование запрещенных фраз в чате
+CC_WARN_HUD = Предупреждение за запрещенные фразы в чат: %i/%i
+CC_STOP_FLOOD = Флуд на сервере запрещен!
+CC_TRANSLIT_NOT = Недостаточно прав для использования команды!
+CC_TRANSLIT_ON = Транслит для чата ВКЛЮЧЕН!
+CC_TRANSLIT_OFF = Транслит для чата ВЫКЛЮЧЕН!
