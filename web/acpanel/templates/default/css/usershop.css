@@ -1,0 +1,287 @@
+.block.withsidebar .block_content .sidebar #user-balance {
+	padding: 0 13px 15px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.block.withsidebar .block_content .sidebar #user-balance .submit {
+	margin: 10px 0 0 0;
+}
+
+#user-balance .balance-label {
+	font-size: 18px;
+	padding-bottom: 2px;
+	color: #151515;
+}
+
+#user-balance .balance-value, #user-balance .balance-points {
+	font-size: 16px;
+	font-weight: bold;
+	color: #007F0E;
+	position: relative;
+}
+
+#user-balance .balance-points {
+	color: #4B1997;
+}
+
+#user-balance .balance-value img, #user-balance .balance-points img {
+	position: relative;
+	top: 2px;
+}
+
+.block.withsidebar .block_content .sidebar ul.sidemenu {
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.block.withsidebar .block_content .sidebar ul.sidemenu li {
+	padding: 0;
+	margin: 0;
+	background: 0;
+	border-bottom: 1px solid #ccc;
+	background-color: #EEE;
+}
+
+.block.withsidebar .block_content .sidebar ul.sidemenu li a {
+	display: block;
+	padding: 10px 13px;
+	font-weight: bold;
+	border-right: 1px solid #cccccc;
+}
+
+.block.withsidebar .block_content .sidebar ul.sidemenu li a:hover {
+	background: #fdfdfd;
+	border-right: 1px solid #cccccc;
+}
+	
+.block.withsidebar .block_content .sidebar ul.sidemenu li.active a,
+.block.withsidebar .block_content .sidebar ul.sidemenu li.active a:hover {
+	background: #ffffff;
+	border-right: 1px solid #ffffff;
+	border: 0;
+}
+
+.block.withsidebar .block_content .sidebar ul.sidemenu li.active a {
+	cursor: default;
+}
+
+.block.withsidebar .block_content .sidebar ul.sidemenu li.active a:hover {
+	color: #008EE8;
+}
+
+.block.withsidebar .block_content .sidebar_content {
+	padding: 15px 20px 15px 210px;
+}
+
+.exchange-form-list {
+	padding: 5px 0 15px 0;
+}
+.exchange-form-list input.text {
+	width: 60px !important;
+}
+.exchange-form-list span {
+	padding-left: 34px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #007F0E;
+	position: relative;
+	top: 3px;
+}
+.exchange-form-list span.skip-left {
+	background: url(../images/arrow-skip-left.png) 10px center no-repeat;
+}
+.exchange-form-list span.skip-right {
+	background: url(../images/arrow-skip-right.png) 10px center no-repeat;
+}
+.block.withsidebar .exchange-form-select div.note {
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+}
+.block table tr td.mm-plus, .block table tr td.mm-minus, .block table tr td.points-plus, .block table tr td.points-minus {
+	padding-left: 27px;
+}
+td.mm-plus {
+	background: url(../images/mm_plus.png) 7px center no-repeat;
+}
+td.mm-minus {
+	background: url(../images/mm_minus.png) 7px center no-repeat;
+}
+td.points-plus {
+	background: url(../images/points_plus.png) 7px center no-repeat;
+}
+td.points-minus {
+	background: url(../images/points_minus.png) 7px center no-repeat;
+}
+table.tablesorter tbody tr.not-pay td {
+	color: #FF0000;
+}
+.price-mm {
+	padding-left: 20px;
+	background: url(../images/money.png) left center no-repeat;
+}
+.price-pt {
+	padding-left: 20px;
+	background: url(../images/points.png) left center no-repeat;
+}
+.max-sale {
+	padding-left: 20px;
+	background: url(../images/max_arrow.png) left center no-repeat;
+}
+.max-sale-user {
+	padding-left: 20px;
+	background: url(../images/user_small.png) left center no-repeat;
+}
+.infinity {
+	display: block;
+	width: 20px;
+	height: 16px;
+	background: url('../images/infinity_icon.png') left center no-repeat;
+}
+#facebox .info-details-box table.tablesorter tr:last-child td {
+	border: none;
+}
+.block-pattern {
+	width: 500px;
+	padding: 10px;
+	border: 1px dashed #CCC;
+	margin-bottom: 15px;
+}
+.block table tr td.buy-button {
+	width: 95px;
+	padding: 5px;
+}
+.block_content .buy-button button.submit {
+	margin: 0;
+}
+.block table.store-item-list tbody tr td {
+	border: none;
+}
+.block table.store-item-list tr.no-desc td, .block table.store-item-list tr.item-desc td {
+	border-bottom: 1px solid #DDDDDD;
+}
+.block table.store-item-list tr.item-desc td {
+	padding-top: 0;
+	color: #888888;
+	font-style: italic;
+	font-size: 90%;
+}
+.block table.store-item-list td.item-name span {
+	border-bottom: 1px dashed;
+	color: #444;
+}
+.block table.store-item-list tr td.item-image {
+	width: 60px;
+	padding: 5px;
+	text-align: center;
+	border-bottom: 1px solid #DDDDDD;
+}
+.block table tr td.item-image img {
+	padding: 3px;
+	border: 1px solid #BBBBBB;
+	background: #ffffff;
+}
+#buy-window .message {
+	margin-top: 0;
+}
+#sale-item-servers {
+	width: 410px;
+	padding-bottom: 15px;
+}
+#sale-item-duration {
+	width: 200px;
+	padding-bottom: 15px;
+}
+/* Fix 100% width */
+.chzn-container, .chzn-drop, .chzn-drop .chzn-search, .chzn-drop .chzn-search input {
+	width: 100% !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.chzn-container-multi .chzn-choices .search-field, .chzn-container-multi .chzn-choices .search-field input.default {
+	width: 99% !important;
+}
+.chzn-container-multi .chzn-choices .search-field, .chzn-container .chzn-results .active-result, .chzn-container .chzn-results .no-results,
+.block .block_content ul li.search-choice, #facebox ul li.search-choice {
+	background: none !important;
+}
+#calc-price {
+	position: relative;
+	top: 2px;
+	font-weight: bold;
+}
+#sale-item-duration input {
+	background-color: #DDD;
+}
+#calc-price .price-mm {
+	color: #007F0E;
+}
+#calc-price .price-pt {
+	color: #4B1997;
+}
+#calc-price .price-mm.err-limit, #calc-price .price-pt.err-limit, .err-limit {
+	color: #FF0000;
+}
+#SearchresultS {
+	font-size: 10px;
+	font-weight: bold;
+	border: 1px solid #CCC;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	padding: 0px 6px;
+	margin: 0 15px;
+	color: #999;
+	border-color: #CCC;
+	background: white;
+	float: right;
+}
+.content textarea.styled {
+	width: inherit;
+	height: 140px;
+	padding: 5px;
+	background: #fefefe;
+	border: 1px solid #bbb;
+	font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: 14px;
+	color: #333;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	outline: none;
+}
+#robokassa.noselect img, #a1pay.noselect img {
+	cursor: pointer;
+}
+#robokassa.hover img, #a1pay.hover img, #robokassa.selected img, #a1pay.selected img {
+	border: 1px solid #ff0000;
+	background: #ff0000;
+}
+#robokassa img, #a1pay img {
+	margin: 0 10px 10px 0;
+	padding: 3px;
+	border: 1px solid #cccccc;
+}
+ul li#robokassa, ul li#a1pay {
+	float: left;
+	list-style: none;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+div#payment-method {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 8000;
+	opacity: 0.4;
+	filter: alpha(opacity=40);
+	-moz-opacity: 0.4;
+	-khtml-opacity: 0.4;
+	background-color: #ffffff;
+}

@@ -1,0 +1,99 @@
+body {
+	background:#000000 url(../images/motd_bg.jpg) repeat;
+	color:#111111;
+	padding:0px;
+	margin:0px;
+	font-family:Tahoma;
+}
+
+.q {
+	background:#ffffff;
+	border:1px solid #555555;
+	font-size:12px;
+	border-radius: 3px !important;
+}
+
+.h {
+	color:#eeeeee;
+	background:#111111;
+	line-height:140%;
+	font-size:11px;
+}
+
+.b {
+	text-align:center;
+}
+
+.c {
+	color:#eeeeee;
+	background:#608A31 url(../images/motd_head.png) repeat-x;
+	border:1px solid #6B9140;
+	font-size:12px;
+	text-align:center;
+	text-transform: uppercase;
+}
+
+.ci {
+	text-align:center;
+}
+
+img {
+	border:0 none;
+}
+
+.q td {
+	padding:5px;
+	font-size:12px;
+}
+
+.td {
+	border-bottom:1px dashed #333333;
+}
+
+.custom td {
+	padding:0px;
+}
+
+a:link,a:visited,a:active {
+	color:#000000;
+}
+
+a:hover {
+	color:#608A31;
+	text-decoration:underline;
+}
+
+.my {
+	background:#5a6a50;
+}
+
+.tbl_content td {
+	border-bottom:1px solid #eeeeee;
+	font-family:Tahoma,Calibri,Verdana,Geneva,sans-serif;
+	font-size:11px;
+	font-size-adjust:none;
+	font-stretch:normal;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	line-height:normal;
+	margin:0;
+	padding:5px;
+}
+
+.thispage {
+	background-color:#b2d68f; 
+	color:#000000;
+	padding:2px;
+	border:1px solid #97c964;
+}
+
+.page {
+	background-color:#ffffff;
+	padding:2px;
+	border:1px solid #97c964;
+}
+
+.thispage a, .page a {
+	text-decoration:none;
+}
