@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="ACPanelBridge" title="ACPanel Bridge" version_string="1.0" version_id="1" url="http://www.a114games.com" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates>
+    <template title="acp_options_list_groups"><![CDATA[<xen:checkboxunit label="{$preparedOption.title}" name="{$fieldPrefix}[{$preparedOption.option_id}]" value="{$preparedOption.option_value}"
+hint="{$preparedOption.hint}">
+	<xen:foreach loop="$formatParams" value="$_formatParam">
+		<xen:option label="{$_formatParam.label}" value="{$_formatParam.value}" selected="{$_formatParam.selected}">
+			<xen:select name="{$fieldPrefix}[{$preparedOption.option_id}][{$_formatParam.value}][acp_group_id]">
+				<xen:options source="$_formatParam.acp_group_id" />
+			</xen:select>
+		</xen:option>
+	</xen:foreach>
+	<xen:explain>{xen:raw $preparedOption.explain}</xen:explain>
+	<xen:html>
+		<input type="hidden" name="{$listedFieldName}" value="{$preparedOption.option_id}" />
+		{xen:raw $editLink}
+	</xen:html>
+</xen:checkboxunit>]]></template>
+  </admin_templates>
+  <admin_template_modifications/>
+  <code_events/>
+  <code_event_listeners>
+    <listener event_id="load_class_datawriter" execute_order="10" callback_class="ACPanelBridge_Listeners_LoadClassDataWriter" callback_method="loadClassDataWriter" active="1" hint="" description=""/>
+    <listener event_id="navigation_tabs" execute_order="10" callback_class="ACPanelBridge_Listeners_Navigation" callback_method="navtabs" active="1" hint="" description=""/>
+    <listener event_id="template_hook" execute_order="10" callback_class="ACPanelBridge_Listeners_TemplateHook" callback_method="templateHook" active="1" hint="" description=""/>
+  </code_event_listeners>
+  <cron/>
+  <email_templates/>
+  <email_template_modifications/>
+  <optiongroups>
+    <group group_id="acp_opt_title" display_order="10000" debug_only="0"/>
+    <option option_id="acpOpt_debugFile" edit_format="onoff" data_type="boolean" can_backup="1">
+      <default_value>0</default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="acp_opt_title" display_order="5"/>
+    </option>
+    <option option_id="acpOpt_groupAssoc" edit_format="callback" data_type="array" can_backup="1" validation_class="ACPanelBridge_Option_Groups" validation_method="verifyOption">
+      <default_value></default_value>
+      <edit_format_params>ACPanelBridge_Option_Groups::renderOption</edit_format_params>
+      <sub_options>*</sub_options>
+      <relation group_id="acp_opt_title" display_order="4"/>
+    </option>
+    <option option_id="acpOpt_navLink" edit_format="textbox" data_type="string" can_backup="1">
+      <default_value>/acpanel.php</default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="acp_opt_title" display_order="3"/>
+    </option>
+    <option option_id="acpOpt_navPosition" edit_format="select" data_type="string" can_backup="1">
+      <default_value>middle</default_value>
+      <edit_format_params>home=home
+middle=middle
+end=end</edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="acp_opt_title" display_order="1"/>
+    </option>
+    <option option_id="acpOpt_path" edit_format="textbox" data_type="string" can_backup="1">
+      <default_value>/htdocs/xenforo</default_value>
+      <edit_format_params></edit_format_params>
+      <sub_options></sub_options>
+      <relation group_id="acp_opt_title" display_order="2"/>
+    </option>
+  </optiongroups>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="acpanel_group_association_invalid" version_id="1" version_string="1.0"><![CDATA[The group associations you have picked are invalid. Please make sure all XenForo groups are associated to ACPanel groups.]]></phrase>
+    <phrase title="acpanel_table_name_invalid" version_id="1" version_string="1.0"><![CDATA[Incorrectly listed the table "ACPanel"]]></phrase>
+    <phrase title="acp_connect_db_error" version_id="1" version_string="1.0"><![CDATA[can not connect to the database ACPanel]]></phrase>
+    <phrase title="acp_fix_top_panel" version_id="1" version_string="1.0"><![CDATA[Locking the panel at the top of the screen]]></phrase>
+    <phrase title="acp_game_account" version_id="1" version_string="1.0"><![CDATA[Game account]]></phrase>
+    <phrase title="acp_not_assoc" version_id="1" version_string="1.0"><![CDATA[not found an association for the user group]]></phrase>
+    <phrase title="acp_not_path" version_id="1" version_string="1.0"><![CDATA[incorrect path to ACPanel]]></phrase>
+    <phrase title="acp_select_group" version_id="1" version_string="1.0"><![CDATA[-- Select ACPanel Group --]]></phrase>
+    <phrase title="acp_shop" version_id="1" version_string="1.0"><![CDATA[Shop]]></phrase>
+    <phrase title="acp_user_create_error" version_id="1" version_string="1.0"><![CDATA[new user group is set by default]]></phrase>
+    <phrase title="acp_user_edit_error" version_id="1" version_string="1.0"><![CDATA[for user # {userid} name is not changed]]></phrase>
+    <phrase title="acp_user_not_created" version_id="1" version_string="1.0"><![CDATA[user {username} is not created]]></phrase>
+    <phrase title="acp_home" version_id="1" version_string="1.0"><![CDATA[Game Panel]]></phrase>
+    <phrase title="acp_my_profile" version_id="1" version_string="1.0"><![CDATA[My game account]]></phrase>
+    <phrase title="acp_settings" version_id="1" version_string="1.0"><![CDATA[Game Setting's]]></phrase>
+    <phrase title="option_acpOpt_debugFile" version_id="1" version_string="1.0"><![CDATA[Enable logging actions addon]]></phrase>
+    <phrase title="option_acpOpt_debugFile_explain" version_id="1" version_string="1.0"><![CDATA[If the setting is enabled, the addon actions and mistakes will be saved to a file]]></phrase>
+    <phrase title="option_acpOpt_groupAssoc" version_id="1" version_string="1.0"><![CDATA[Groups Association]]></phrase>
+    <phrase title="option_acpOpt_groupAssoc_explain" version_id="1" version_string="1.0"><![CDATA[Association of user groups "XF" and users groups "ACP"]]></phrase>
+    <phrase title="option_acpOpt_navLink" version_id="1" version_string="1.0"><![CDATA[Navigation Link]]></phrase>
+    <phrase title="option_acpOpt_navLink_explain" version_id="1" version_string="1.0"><![CDATA[]]></phrase>
+    <phrase title="option_acpOpt_navPosition" version_id="1" version_string="1.0"><![CDATA[ACP Navtab Position]]></phrase>
+    <phrase title="option_acpOpt_navPosition_explain" version_id="1" version_string="1.0"><![CDATA[Position the tab "ACPanel" in the navigation menu]]></phrase>
+    <phrase title="option_acpOpt_path" version_id="1" version_string="1.0"><![CDATA[ACPanel Path]]></phrase>
+    <phrase title="option_acpOpt_path_explain" version_id="1" version_string="1.0"><![CDATA[The absolute path where you installed the "ACPanel"]]></phrase>
+    <phrase title="option_group_acp_opt_title" version_id="1" version_string="1.0"><![CDATA[ACPanel Bridge]]></phrase>
+    <phrase title="option_group_acp_opt_title_description" version_id="1" version_string="1.0"><![CDATA[The settings for the addon]]></phrase>
+    <phrase title="staff_online_cs_players" version_id="1" version_string="1.0"><![CDATA[Players]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates>
+    <template title="acp_game_navtabs" version_id="1" version_string="1.0"><![CDATA[<ul class="secondaryContent blockLinksList">
+<xen:foreach loop="$childLinks" value="$Link">
+    <li><a href="{xen:link './acpanel/acpanel.php', '', 'cat={$Link.cat}', 'do={$Link.do}'}">{$Link.title}</a></li>
+</xen:foreach>
+</ul>]]></template>
+  </templates>
+  <public_template_modifications/>
+  <bb_code_media_sites/>
+  <bb_codes/>
+</addon>
